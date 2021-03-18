@@ -1,12 +1,14 @@
-#include <cstdio>
+#include <iostream>
+
+using namespace std;
 
 int main()
 {
-    int a,b;
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
 
-    printf("hello\n");
-    scanf("%d %d", &a, &b);
-    printf("%d \n", a+b);
-    return 0;
-        
+    int a,b;
+    cin>>a>>b;
+    cout<<a+b<<'\n';
+
 }
